@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.inline{
+  display: inline-block;
+}
+
+.check-icon svg{
+  color: green;
+}
+
+.right-align{
+  text-align: right;
+}
+
+.MuiGrid-root .update-button{
+  background-color: green;
+  color: #fff;
+}
+
+.price,
+.MuiGrid-root .update-button{
+  margin-right: 30px;
+}
+
+/**** canceling some material ui stuff *****/
+
+html .MuiPaper-elevation1 {
+  box-shadow: initial;
+}
+
+.card-name,
+.card-desc,
+.card-feat{
+  margin: 15px 0;
+}
